@@ -3,7 +3,7 @@
 Sistemas que projetei e escrevi do zero: dois em produção diária numa indústria,
 e um ERP em desenvolvimento. **São de código fechado** — o que está aqui é o
 estudo de caso: o problema que cada um resolve, o que ele faz, as decisões de engenharia, as
-alternativas óbvias que descartei e por quê, e o que eu faria diferente.
+alternativas óbvias que descartei e por quê.
 
 > Código aberto meu fica em
 > [Animacoes](https://github.com/Vbonadiman/Animacoes) — peças de animação e de
@@ -14,9 +14,8 @@ alternativas óbvias que descartei e por quê, e o que eu faria diferente.
 ### [Supervisório industrial](supervisorio/)
 
 Painel de planta em tempo real: acompanha todos os registradores de cada
-equipamento, guarda o histórico e calcula exposição ocupacional a amônia contra
-os limites da norma. Comunica por MQTT ou Modbus serial, e sobe numa máquina que
-não tem nada instalado.
+equipamento, guarda o histórico e exibe alertas personalizados de acordo com equipamento.
+Comunica por MQTT ou Modbus serial.
 
 Node.js · Express 5 · Socket.IO · SQLite · JWT
 
@@ -32,9 +31,6 @@ comprou, com os formulários de manutenção do técnico de campo vinculados à 
 
 Node.js · TypeScript · React · Express · Prisma · PostgreSQL · Electron
 
-*Decisões que valem a leitura: como sete defeitos de duplicidade tinham o mesmo
-padrão e a mesma correção, por que nenhuma resposta devolve o modelo inteiro, e
-por que o servidor manda veredito em vez de ingrediente.*
 
 ### [Gestor de acessos e licenças](gestor-acessos/)
 
