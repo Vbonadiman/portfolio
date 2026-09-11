@@ -5,10 +5,6 @@ e um ERP em desenvolvimento. **São de código fechado** — o que está aqui é
 estudo de caso: o problema que cada um resolve, o que ele faz, as decisões de engenharia, as
 alternativas óbvias que descartei e por quê.
 
-> Código aberto meu fica em
-> [Animacoes](https://github.com/Vbonadiman/Animacoes) — peças de animação e de
-> interface, todas sem dependência.
-
 ---
 
 ### [Supervisório industrial](supervisorio/)
@@ -30,7 +26,6 @@ cada equipamento que a fábrica monta, do número de série até o cliente que
 comprou, com os formulários de manutenção do técnico de campo vinculados à peça.
 
 Node.js · TypeScript · React · Express · Prisma · PostgreSQL · Electron
-
 
 ### [Gestor de acessos e licenças](gestor-acessos/)
 
